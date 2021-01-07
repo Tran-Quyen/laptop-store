@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+@media only screen and (max-width: 768px) {
+    header .col-sm-12{
+        font-size: 15px;
+    }
+    header .col-sm-12 h2{
+        font-size: 20px;
+    }
+    .navbar-toggler{
+        font-size: 10px !important;
+    }
+    .form-control {
+        width: 80% !important;
+    }
+    }
+.nav-top{
+        padding: 0;
+    }
+.modal-css{
+    color: black;
+    margin: 0px;
+    text-align: left;
+}
+.nav-footer{
+   color: aliceblue !important;
+}
+.nav-footer h4,h3{
+    margin-left: 10%;
+}
+.nav-footer h3{
+    color: rgb(247 74 74);
+}
+#btn-thanhtoan{
+
+    margin-left: 10%;
+    font-size: 20px;
+    border-radius: 30px;
+    width: 300px;
+}
+.mess{
+    float: left;
+    left: 70%;
+    bottom: 10%;
+}
+.bao-hanh{
+   
+}
+@media only screen and (max-width: 768px) {
+    
+    footer,h4{
+        font-size: 15px;
+    }
+    footer,h3{
+        font-size: 20px;
+    }
+    .footer-icon{
+       width: 50px !important;
+    }
+    .table-footer{
+        font-size: 10px;
+    }
+
+  }
+
+footer{
+    background-color: rgb(2, 17, 59);
+    color: aliceblue;
+}
+#footer2{
+    height: 300px;
+}
+.table-footer{
+    color: aliceblue;
+    border: none ;
+    width: 100%;
+}
+.table-footer tbody tr td{
+    color: rgb(167, 168, 168);
+}
+#thanhtoan{
+    color: black;
+}
+
+
+
+
+
+
+
+

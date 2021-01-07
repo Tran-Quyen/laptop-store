@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+.my-md-4 header-links a{
+    color: aliceblue !important;
+}
+
+@media only screen and (max-width: 768px) {
+    header .col-sm-12{
+        font-size: 10px;
+    }
+    header .col-sm-12 h2{
+        font-size: 15px;
+    }
+    .navbar-toggler{
+        font-size: 10px !important;
+    }
+    .form-control {
+        width: 80% !important;
+    }
+    }
+.nav a{
+    color: aliceblue;
+}
+.nav-top{
+    padding: 0;
+}
+
+header{
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.modal-css{
+    color: black;
+    margin: 0px;
+    text-align: left;
+}
+main{
+    font-family: 'Roboto', sans-serif;
+
+}
+.gachchu{
+    text-decoration: line-through;
+}
+
+.form-control{
+    width: 100%;
+}
+.datee{
+    width: 50%;
+    display: flex;
+}
+.carousel-control-prev-icon span{
+    color: brown !important;
+}
+.table table-dark table-hover{
+    height: 100%;
+}
+@media only screen and (max-width: 768px) {
+    .hangmoi {
+      display: none;
+    }
+
+  }
+.hangmoi-sm{
+    display: none;
+}
+@media only screen and (max-width: 768px) {
+    .hangmoi-sm {
+      display: block;
+      font-size: 10px;
+    }
+    .hangmoi-sm h5,h4,h6{
+        font-size: 12px;
+    }
+    .hangmoi-sm button{
+        font-size: 10px;
+    }
+    .pc img{
+        width: 17rem;
+    }
+
+  }
+  .mess{
+      float: left;
+      left: 70%;
+      bottom: 2%;
+  }
+.thuong-hieu{
+    width: 15%;
+    border-radius: 20px;
+    border: 1px;
+}
+.thuong-hieu:hover{
+    border: 2px;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.39);
+}
+.gia{
+    width: 150px;
+}
+.card-pc:hover{
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.39);
+}
+@media only screen and (max-width: 768px) {
+    .gia{
+        font-size: 10px;
+        width: 100px;
+    }
+    .pc{
+        width: 10rem !important;
+    }
+    .pc p,h5,code{
+        font-size: 10px !important;
+        
+    }
+    .card-pc{
+        width: 10rem !important;
+    }
+    .card img{
+        width: 9rem;
+    }
+    footer,h3{
+        font-size: 10px;
+    }
+    .footer-icon{
+       width: 50px !important;
+    }
+
+  }
+footer{
+    background-color: rgb(2, 17, 59);
+    color: aliceblue;
+}
+.table-footer{
+    color: aliceblue;
+    border: none ;
+    width: 100%;
+}
+.table-footer tbody tr td{
+    color: rgb(167, 168, 168);
+}
+
+    
+
+
+
+
+
+
+/* slick */
+.slider {
+  width: 70%;
+  margin:auto;
+}
+
+.slick-slide {
+margin:0px;
+}
+
+.slick-slide img {
+width: 100%;
+}
+.card:hover{
+  width: 1005%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+color: black;
+}
+
+
+.slick-slide {
+transition: all ease-in-out .5s;
+}
+
+.slick-active {
+opacity: 1;
+}
+
+.slick-current {
+opacity: 1;
+}
+
+/* slick */
+.pc{
+    width: 17rem;
+}

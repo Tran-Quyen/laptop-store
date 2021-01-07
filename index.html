@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Laptop online</title>
+  <link rel="shortcut icon" type="image/png" href="./assets/img/Q-icon.png" />
+  <link rel="stylesheet" href="./bootstrap-4.5.2-dist/css/bootstrap.css">
+  <!-- icon -->
+  <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+  <!-- icon -->
+  <link href="./assets/fonts/fontawesome-free-5.15.1-web/css/fontawesome.min.css" rel="stylesheet">
+  <!-- carousel -->
+  <link href="./assets/fonts/fontawesome-free-5.15.1-web/css/brands.min.css" rel="stylesheet">
+  <link href="./assets/fonts/fontawesome-free-5.15.1-web/css/solid.min.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
+  </script>
+  <!-- carousel -->
+  <!--slick carousel -->
+  <link rel="stylesheet" href="./assets/fonts/slick/slick-theme.css">
+  <link rel="stylesheet" href="./slick/slick.css">
+  <link rel="stylesheet" href="./assets/fonts/slick/slick.css">
+  <!--slick carousel -->
+  <script src="./bootstrap-4.5.2-dist/js/bootstrap.js"></script>
+  <link href="./assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <header>
+    <div class="container ">
+      <div class="row">
+        <div class="col-md-12 col-sm-12">
+          <nav class="navbar navbar-expand-md nav-top "></nav>
+          <div class="container-fluid bg-info">
+            <div class="row text-white">
+              <div class="col-md-4"></div>
+              <div class="col-md-4 text-center py-3">
+                <h2 class="text">TOPMAC STORE</h2>
+              </div>
+              <div class="col-md-4 col-sm-6 text-right pr-5 ">
+                <div class="my-md-4 header-links ">
+                  <a class="px-5 text-white" href="#" data-toggle="modal" data-target="#myModal">Đăng ký</a>
+
+                  <a href="#" class=" text-white" data-toggle="modal" data-target="#myModal2">Đăng nhập <i
+                      class="fas fa-user"></i></a>
+
+                  <div class="modal" id="myModal">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+
+                        <!-- Modal Header -->
+                        <div class="modal-header modal-css">
+                          <h2 class="modal-title">Đăng ký</h2>
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+
+                        <!-- Modal body -->
+                        <div class="modal-body modal-css">
+                          <form action="">
+                            <div class="form-group">
+                              <label for="">Họ và tên:</label>
+                              <input type="" class="form-control" id="" placeholder="Họ và tên" name="">
+
+                              <label for="">Số điện thoại:</label>
+                              <input type="" class="form-control" id="" placeholder="Số điện thoai" name="">
+                              <label for="">Ngày sinh:</label>
+                              <input type="date" class="form-control datee">
+                              <label for="">Email:</label>
+                              <input type="email" class="form-control" id="email" placeholder="Enter email"
+                                name="email">
+                            </div>
+                            <div class="form-group">
+                              <label for="pwd">Password:</label>
+                              <input type="password" class="form-control" id="pwd" placeholder="Enter password"
+                                name="pswd">
+                            </div>
+                            <div class="form-group form-check">
+                              <label class="form-check-label">
+                                <input class="form-check-input" type="checkbox" name=""> Đồng ý với các điều
+                                khoản</label>
+                            </div>
+
+                          </form>
+
+                        </div>
+
+                        <!-- Modal footer -->
+                        <div class="modal-footer modal-css">
+                          <button type="button" class="btn btn-info m-auto" data-dismiss="modal">Đăng ký</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="modal" id="myModal2">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+
+                        <!--Modal Header -->
+                        <div class="modal-header modal-css">
+                          <h2 class="modal-title">Đăng nhập</h2>
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+
+                        <!-- Modal body -->
+                        <div class="modal-body modal-css">
+                          <form action="">
+                            <div class="form-group">
+
+                              <label for="">Email:</label>
+                              <input type="email" class="form-control" id="email" placeholder="Enter email"
+                                name="email">
+                            </div>
+                            <div class="form-group">
+                              <label for="pwd">Password:</label>
+                              <input type="password" class="form-control" id="pwd" placeholder="Enter password"
+                                name="pswd">
+
+                          </form>
+
+                        </div>
+
+                        <!-- Modal footer -->
+                        <div class="modal-footer modal-css">
+                          <button type="button" class="btn btn-info m-auto" data-dismiss="modal">Đăng nhập</button>
+                        </div>
+
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+  </header>
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="navbar navbar-expand-md bg-dark navbar-dark px-1 sitcky-top">
+            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon right"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav">
+                <li class="nav-item px-2">
+                  <a class="nav-link active" href="#">Trang chủ</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    Laptop
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">lenlovo</a>
+                    <a class="dropdown-item" href="#">Asus</a>
+                    <a class="dropdown-item" href="#">Think pad</a>
+                  </div>
+                </li>
+                <li class="nav-item px-2">
+                  <a class="nav-link" href="#">Phụ kiện</a>
+                </li>
+                <li>
+                  <a class="nav-link" href="#">Hỗ Trợ</a>
+                </li>
+              </ul>
+              <form class="form-inline ml-auto pr-1">
+                <input class="form-control mr-sm-2" type="text" placeholder="Tìm kiếm sản phẩm">
+                <button class="btn btn-success" type="submit"><i class="fas fa-search"></i></button>
+              </form>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  </div>
+  </div>
+  </div>
+  <main>
+    <!-- slide1 -->
+    <div class="container pt-1">
+      <div class="row">
+        <div class="col-md-9 col-sm-12">
+          <div id="demo" class="carousel slide " data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+              <li data-target="#demo" data-slide-to="0" class="active"></li>
+              <li data-target="#demo" data-slide-to="1"></li>
+              <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/img/lenovo-laptop-thinkpad-banner-1143x357.jpg" alt="Los Angeles" class="fliud"
+                  width="100%">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/slide 2.png" alt="Chicago" class="fliud" width="100%">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/slide 3.jpg" alt="New York" class="fliud" width="100%">
+              </div>
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-12 pt-4">
+          <img src="./assets/img/tra gop.jpg" alt="" class="rounded fliud" width="100%">
+        </div>
+      </div>
+    </div>
+    <!-- hang moi ve -->
+    <div class="container pt-4">
+
+      <h4>Hàng mới về <span class="badge badge-warning">New</span></h4>
+      <p class="text-right mr-5"><a href="#">Xem tất cả</a></p>
+
+    </div>
+    <!-- slick carousel -->
+    <div class="contaimer hangmoi">
+      <div class="row">
+        <div class="col-12">
+          <section class="regular slider">
+            <div class="card h-100" style="width: 18rem;">
+              <img class="card-img-top" src="./assets/img/HPOMEN152020_00.jpg" alt="Card image cap" class="fluid">
+              <div class="card-body">
+                <h5 class="card-title">HP owen</h5>
+                <p class="card-text">AMD Ryzen R7-4800H, RAM 8GB, 512GB m.2 NVMe, 15.6" 144Hz FHD IPS (1920 x 1080), GTX
+                  1660Ti</p>
+                <h4 class="card-title text-info">29.990.000 VNĐ</h4>
+                <p><a href="#" class=" text-white" data-toggle="modal" data-target="#myModal2"><button type="button"
+                      class="btn btn-info"> <i class="fas fa-shopping-cart pr-2"></i>Mua ngay</button><i
+                      class="fas fa-user"></i></a> <strong><a href="./product.html" style="color: rgb(1, 105, 119);">xem
+                      chi tiết</a></strong>
+                </p>
+              </div>
+            </div>
+            <div class="card h-100" style="width: 18rem;">
+              <a href="./product.html"><img class="card-img-top" src="./assets/img/pavilionG2020A_00.jpg"
+                  alt="Card image cap"></a>
+              <div class="card-body">
+                <h5 class="card-title">HP Pavilion 15 G2020</h5>
+                <p class="card-text">AMD Ryzen R5 4600H, RAM 8GB, 128GB m.2 NVMe,512GB m.2 NVMe, 15.6" 144Hz 1TB HDD,
+                  Nvidia Geforce GTX 1650</p>
+                <h4 class="card-title text-info">18.900.000 VNĐ</h4>
+                <p><a href="#" class=" text-white" data-toggle="modal" data-target="#myModal2"><button type="button"
+                      class="btn btn-info"> <i class="fas fa-shopping-cart pr-2"></i>Mua ngay</button><i
+                      class="fas fa-user"></i></a> <strong><a href="./product.html" style="color: rgb(1, 105, 119);">xem
+                      chi tiết</a></strong>
+                </p>
+
+
+              </div>
+            </div>
+            <div class="card h-100" style="width: 18rem;">
+              <img class="card-img-top" src="./assets/img/Lenovo-ThinkPad-T490s.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">ThinkPad T490s</h5>
+                <p class="card-text">Intel Core i5-8365U, RAM 8GB, 256GB m.2 NVMe, 14" FHD IPS (1920 x 1080), Intel UHD
+                  620,black</p>
+                <h4 class="card-title text-info">21.490.000 VNĐ</h4>
+                <p><a href="#" class=" text-white" data-toggle="modal" data-target="#myModal2"><button type="button"
+                      class="btn btn-info"> <i class="fas fa-shopping-cart pr-2"></i>Mua ngay</button><i
+                      class="fas fa-user"></i></a> <strong><a href="./product.html" style="color: rgb(1, 105, 119);">xem
+                      chi tiết</a></strong>
+                </p>
+              </div>
+            </div>
+            <div class="card h-100" style="width: 18rem;">
+              <img class="card-img-top" src="./assets/img/HPOMEN152020_00.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">HP owen</h5>
+                <p class="card-text">AMD Ryzen R7-4800H, RAM 8GB, 512GB m.2 NVMe, 15.6" 144Hz FHD IPS (1920 x 1080), GTX
+                  1660Ti</p>
+                <h4 class="card-title text-info">29.990.000 VNĐ</h4>
+                <p><a href="#" class=" text-white" data-toggle="modal" data-target="#myModal2"><button type="button"
+                      class="btn btn-info"> <i class="fas fa-shopping-cart pr-2"></i>Mua ngay</button><i
+                      class="fas fa-user"></i></a> <strong><a href="./product.html" style="color: rgb(1, 105, 119);">xem
+                      chi tiết</a></strong>
+                </p>
+              </div>
+            </div>
+            <div class="card h-100" style="width: 18rem;">
+              <img class="card-img-top" src="./assets/img/HPOMEN152020_00.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">HP owen</h5>
+                <p class="card-text">AMD Ryzen R7-4800H, RAM 8GB, 512GB m.2 NVMe, 15.6" 144Hz FHD IPS (1920 x 1080), GTX
+                  1660Ti</p>
+                <h4 class="card-title text-info">29.990.000 VNĐ</h4>
+                <p><a href="#" class=" text-white" data-toggle="modal" data-target="#myModal2"><button type="button"
+                      class="btn btn-info"> <i class="fas fa-shopping-cart pr-2"></i>Mua ngay</button><i
+                      class="fas fa-user"></i></a> <strong><a href="./product.html" style="color: rgb(1, 105, 119);">xem
+                      chi tiết</a></strong>
+                </p>
+              </div>
+            </div>
+            <div class="card h-100" style="width: 18rem;">
+              <img class="card-img-top" src="./assets/img/HPOMEN152020_00.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">HP owen</h5>
+                <p class="card-text">AMD Ryzen R7-4800H, RAM 8GB, 512GB m.2 NVMe, 15.6" 144Hz FHD IPS (1920 x 1080), GTX
+                  1660Ti</p>
+                <h4 class="card-title text-info">29.990.000 VNĐ</h4>
+                <p><a href="#" class=" text-white" data-toggle="modal" data-target="#myModal2"><button type="button"
+                      class="btn btn-info"> <i class="fas fa-shopping-cart pr-2"></i>Mua ngay</button><i
+                      class="fas fa-user"></i></a> <strong><a href="./product.html" style="color: rgb(1, 105, 119);">xem
+                      chi tiết</a></strong>
+                </p>
+              </div>
+            </div>
+            <div class="card h-100" style="width: 18rem;">
+              <img class="card-img-top" src="./assets/img/HPOMEN152020_00.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">HP owen</h5>
+                <p class="card-text">AMD Ryzen R7-4800H, RAM 8GB, 512GB m.2 NVMe, 15.6" 144Hz FHD IPS (1920 x 1080), GTX
+                  1660Ti</p>
+                <h4 class="card-title text-info">29.990.000 VNĐ</h4>
+                <p><a href="#" class=" text-white" data-toggle="modal" data-target="#myModal2"><button type="button"
+                      class="btn btn-info"> <i class="fas fa-shopping-cart pr-2"></i>Mua ngay</button><i
+                      class="fas fa-user"></i></a> <strong><a href="./product.html" style="color: rgb(1, 105, 119);">xem
+                      chi tiết</a></strong>
+                </p>
+              </div>
+            </div>
+
+          </section>
+        </div>
+      </div>
+    </div>
+    <!-- slick carousel -->
+
+
+
+    <!-- hang moi sm -->
+    <div class="contaimer hangmoi-sm">
+      <div class="row">
+        <div class="col-md-12 col-sm-12">
+          <section class="regular-sm slider">
+            <div class="card h-100" style="width: 18rem;">
+              <img class="card-img-top" src="./assets/img/HPOMEN152020_00.jpg" alt="Card image cap" class="fluid">
+              <div class="card-body">
+                <h5 class="card-title">HP owen</h5>
+                <p class="card-text">AMD Ryzen R7-4800H, RAM 8GB, 512GB m.2 NVMe, 15.6" 144Hz FHD IPS (1920 x 1080), GTX
+                  1660Ti</p>
+                <h4 class="card-title text-info">29.990.000 VNĐ</h4>
+                <a href="#" class="">
+                  <button type="button" class="btn btn-info"> <i class="fas fa-shopping-cart pr-2"></i>Mua ngay</button>
+                </a>
+              </div>
+            </div>
+            <div class="card h-100" style="width: 18rem;">
+              <a href="#"><img class="card-img-top" src="./assets/img/pavilionG2020A_00.jpg" alt="Card image cap"></a>
+              <div class="card-body">
+                <h5 class="card-title">HP Pavilion 15 G2020</h5>
+                <p class="card-text">AMD Ryzen R5 4600H, RAM 8GB, 1TB HDD,512GB m.2 NVMe, Nvidia Geforce GTX 1650</p>
+                <h4 class="card-title text-info">18.900.000 VNĐ</h4>
+                <div class="btn-grup"><a href="#" class="">
+                    <button type="button" class="btn btn-info"> <i class="fas fa-shopping-cart pr-2"></i>Mua
+                      ngay</button>
+                  </a></div>
+
+
+              </div>
+            </div>
+            <div class="card h-100" style="width: 18rem;">
+              <img class="card-img-top" src="./assets/img/Lenovo-ThinkPad-T490s.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">ThinkPad T490s</h5>
+                <p class="card-text">Intel Core i5-8365U, RAM 8GB, 256GB m.2 NVMe,512GB m.2 NVMe, 14" FHD IPS (1920 x
+                  1080), Intel UHD 620,black</p>
+                <h4 class="card-title text-info">21.490.000 VNĐ</h4>
+                <a href="#" class="">
+                  <button type="button" class="btn btn-info"> <i class="fas fa-shopping-cart pr-2"></i>Mua ngay</button>
+                </a>
+              </div>
+            </div>
+            <div class="card h-100" style="width: 18rem;">
+              <img class="card-img-top" src="./assets/img/HPOMEN152020_00.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">HP owen</h5>
+                <p class="card-text">AMD Ryzen R7-4800H, RAM 8GB, 512GB m.2 NVMe, 15.6" 144Hz FHD IPS (1920 x 1080), GTX
+                  1660Ti</p>
+                <h4 class="card-title text-info">29.990.000 VNĐ</h4>
+                <a href="#" class="">
+                  <button type="button" class="btn btn-info"> <i class="fas fa-shopping-cart pr-2"></i>Mua ngay</button>
+                </a>
+              </div>
+            </div>
+            <div class="card h-100" style="width: 18rem;">
+              <img class="card-img-top" src="./assets/img/HPOMEN152020_00.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">HP owen</h5>
+                <p class="card-text">AMD Ryzen R7-4800H, RAM 8GB, 512GB m.2 NVMe, 15.6" 144Hz FHD IPS (1920 x 1080), GTX
+                  1660Ti</p>
+                <h4 class="card-title text-info">29.990.000 VNĐ</h4>
+                <a href="#" class="">
+                  <button type="button" class="btn btn-info"> <i class="fas fa-shopping-cart pr-2"></i>Mua ngay</button>
+                </a>
+              </div>
+            </div>
+            <div class="card h-100" style="width: 18rem;">
+              <img class="card-img-top" src="./assets/img/HPOMEN152020_00.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">HP owen</h5>
+                <p class="card-text">AMD Ryzen R7-4800H, RAM 8GB, 512GB m.2 NVMe, 15.6" 144Hz FHD IPS (1920 x 1080), GTX
+                  1660Ti</p>
+                <h4 class="card-title text-info">29.990.000 VNĐ</h4>
+                <a href="#" class="">
+                  <button type="button" class="btn btn-info"> <i class="fas fa-shopping-cart pr-2"></i>Mua ngay</button>
+                </a>
+              </div>
+            </div>
+            <div class="card h-100" style="width: 18rem;">
+              <img class="card-img-top" src="./assets/img/HPOMEN152020_00.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">HP owen</h5>
+                <p class="card-text">AMD Ryzen R7-4800H, RAM 8GB, 512GB m.2 NVMe, 15.6" 144Hz FHD IPS (1920 x 1080), GTX
+                  1660Ti</p>
+                <h4 class="card-title text-info">29.990.000 VNĐ</h4>
+                <a href="#" class="">
+                  <button type="button" class="btn btn-info"> <i class="fas fa-shopping-cart pr-2"></i>Mua ngay</button>
+                </a>
+              </div>
+            </div>
+
+          </section>
+        </div>
+      </div>
+    </div>
+    <!-- slick carousel -->
+
+
+    <!-- giam gia soc -->
+    <div class="container pt-4">
+
+      <h4>Giảm giá sốc <span class="badge badge-danger">sale</span></h4>
+      <p class="text-right mr-5"><a href="#">Xem tất cả</a></p>
+
+    </div>
+    <!-- slick carousel -->
+    <div class="contaimer hangmoi">
+      <div class="row">
+        <div class="col-md-12 col-sm-12">
+          <section class="regular slider">
+            <div class="card h-100" style="width: 18rem;">
+              <img class="card-img-top" src="./assets/img/sale.PNG" alt="Card image cap" class="fluid">
+              <div class="card-body">
+                <h5 class="card-title">HP owen</h5>
+                <p class="card-text">ntel Core i7-8750H, RAM 16GB, 256GB m.2 NVMe, 15.6" 144Hz FHD (1920x1080), GTX 1070
+                </p>
+                <h6 class="gachchu">44.990.000</h6>
+                <h4 class="card-title text-danger">29.990.000 VNĐ</h4>
+                <a href="./product.html" class="">
+                  <button type="button" class="btn btn-info"> <i class="fas fa-shopping-cart pr-2"></i>Mua ngay</button>
+                </a>
+              </div>
+            </div>
+            <div class="card h-100" style="width: 18rem;">
+              <img class="card-img-top" src="./assets/img/sale.PNG" alt="Card image cap" class="fluid">
+              <div class="card-body">
+                <h5 class="card-title">HP owen</h5>
+                <p class="card-text">ntel Core i7-8750H, RAM 16GB, 256GB m.2 NVMe, 15.6" 144Hz FHD (1920x1080), GTX 1070
+                </p>
+                <h6 class="gachchu">44.990.000</h6>
+                <h4 class="card-title text-danger">29.990.000 VNĐ</h4>
+                <a href="./product.html" class="">
+                  <button type="button" class="btn btn-info"> <i class="fas fa-shopping-cart pr-2"></i>Mua ngay</button>
+                </a>
+              </div>
+            </div>
+            <div class="card h-100" style="width: 18rem;">
+              <img class="card-img-top" src="./assets/img/sale.PNG" alt="Card image cap" class="fluid">
+              <div class="card-body">
+                <h5 class="card-title">HP owen</h5>
+                <p class="card-text">ntel Core i7-8750H, RAM 16GB, 256GB m.2 NVMe, 15.6" 144Hz FHD (1920x1080), GTX 1070
+                </p>
+                <h6 class="gachchu">44.990.000</h6>
+                <h4 class="card-title text-danger">29.990.000 VNĐ</h4>
+                <a href="./product.html" class="">
+                  <button type="button" class="btn btn-info"> <i class="fas fa-shopping-cart pr-2"></i>Mua ngay</button>
+                </a>
+              </div>
+            </div>
+            <div class="card h-100" style="width: 18rem;">
+              <img class="card-img-top" src="./assets/img/sale.PNG" alt="Card image cap" class="fluid">
+              <div class="card-body">
+                <h5 class="card-title">HP owen</h5>
+                <p class="card-text">ntel Core i7-8750H, RAM 16GB, 256GB m.2 NVMe, 15.6" 144Hz FHD (1920x1080), GTX 1070
+                </p>
+                <h6 class="gachchu">44.990.000</h6>
+                <h4 class="card-title text-danger">29.990.000 VNĐ</h4>
+                <a href="./product.html" class="">
+                  <button type="button" class="btn btn-info"> <i class="fas fa-shopping-cart pr-2"></i>Mua ngay</button>
+                </a>
+              </div>
+            </div>
+            <div class="card h-100" style="width: 18rem;">
+              <img class="card-img-top" src="./assets/img/sale.PNG" alt="Card image cap" class="fluid">
+              <div class="card-body">
+                <h5 class="card-title">HP owen</h5>
+                <p class="card-text">ntel Core i7-8750H, RAM 16GB, 256GB m.2 NVMe, 15.6" 144Hz FHD (1920x1080), GTX 1070
+                </p>
+                <h6 class="gachchu">44.990.000</h6>
+                <h4 class="card-title text-danger">29.990.000 VNĐ</h4>
+                <a href="./product.html" class="">
+                  <button type="button" class="btn btn-info"> <i class="fas fa-shopping-cart pr-2"></i>Mua ngay</button>
+                </a>
+              </div>
+            </div>
+            <div class="card h-100" style="width: 18rem;">
+              <img class="card-img-top" src="./assets/img/sale.PNG" alt="Card image cap" class="fluid">
+              <div class="card-body">
+                <h5 class="card-title">HP owen</h5>
+                <p class="card-text">ntel Core i7-8750H, RAM 16GB, 256GB m.2 NVMe, 15.6" 144Hz FHD (1920x1080), GTX 1070
+                </p>
+                <h6 class="gachchu">44.990.000</h6>
+                <h4 class="card-title text-danger">29.990.000 VNĐ</h4>
+                <a href="./product.html" class="">
+                  <button type="button" class="btn btn-info"> <i class="fas fa-shopping-cart pr-2"></i>Mua ngay</button>
+                </a>
+              </div>
+            </div>
+            <div class="card h-100" style="width: 18rem;">
+              <img class="card-img-top" src="./assets/img/sale.PNG" alt="Card image cap" class="fluid">
+              <div class="card-body">
+                <h5 class="card-title">HP owen</h5>
+                <p class="card-text">ntel Core i7-8750H, RAM 16GB, 256GB m.2 NVMe, 15.6" 144Hz FHD (1920x1080), GTX 1070
+                </p>
+                <h6 class="gachchu">44.990.000</h6>
+                <h4 class="card-title text-danger">29.990.000 VNĐ</h4>
+                <a href="./product.html" class="">
+                  <button type="button" class="btn btn-info"> <i class="fas fa-shopping-cart pr-2"></i>Mua ngay</button>
+                </a>
+              </div>
+            </div>
+
+        </div>
+      </div>
+
+      </section>
+    </div>
+    </div>
+    </div>
+    <!-- slick carousel -->
+
+
+
+
+    <div class="contaimer hangmoi-sm">
+      <div class="row">
+        <div class="col-md-12 col-sm-12">
+          <section class="regular-sm slider">
+            <div class="card h-100" style="width: 18rem;">
+              <img class="card-img-top" src="./assets/img/HPOMEN152020_00.jpg" alt="Card image cap" class="fluid">
+              <div class="card-body">
+                <h5 class="card-title">HP owen</h5>
+                <p class="card-text">AMD Ryzen R7-4800H, RAM 8GB, 512GB m.2 NVMe, 15.6" 144Hz FHD IPS (1920 x 1080), GTX
+                  1660Ti</p>
+                <h4 class="card-title text-info">29.990.000 VNĐ</h4>
+                <a href="./product.html" class="">
+                  <button type="button" class="btn btn-info"> <i class="fas fa-shopping-cart pr-2"></i>Mua ngay</button>
+                </a>
+              </div>
+            </div>
+            <div class="card h-100" style="width: 18rem;">
+              <a href="./product.html"><img class="card-img-top" src="./assets/img/pavilionG2020A_00.jpg"
+                  alt="Card image cap"></a>
+              <div class="card-body">
+                <h5 class="card-title">HP Pavilion 15 G2020</h5>
+                <p class="card-text">AMD Ryzen R5 4600H, RAM 8GB, 1TB HDD,512GB m.2 NVMe, Nvidia Geforce GTX 1650</p>
+                <h4 class="card-title text-info">18.900.000 VNĐ</h4>
+                <div class="btn-grup"><a href="#" class="">
+                    <button type="button" class="btn btn-info"> <i class="fas fa-shopping-cart pr-2"></i>Mua
+                      ngay</button>
+                  </a></div>
+
+
+              </div>
+            </div>
+            <div class="card h-100" style="width: 18rem;">
+              <img class="card-img-top" src="./assets/img/Lenovo-ThinkPad-T490s.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">ThinkPad T490s</h5>
+                <p class="card-text">Intel Core i5-8365U, RAM 8GB, 256GB m.2 NVMe,512GB m.2 NVMe, 14" FHD IPS (1920 x
+                  1080), Intel UHD 620,black</p>
+                <h4 class="card-title text-info">21.490.000 VNĐ</h4>
+                <a href="./product.html" class="">
+                  <button type="button" class="btn btn-info"> <i class="fas fa-shopping-cart pr-2"></i>Mua ngay</button>
+                </a>
+              </div>
+            </div>
+            <div class="card h-100" style="width: 18rem;">
+              <img class="card-img-top" src="./assets/img/HPOMEN152020_00.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">HP owen</h5>
+                <p class="card-text">AMD Ryzen R7-4800H, RAM 8GB, 512GB m.2 NVMe, 15.6" 144Hz FHD IPS (1920 x 1080), GTX
+                  1660Ti</p>
+                <h4 class="card-title text-info">29.990.000 VNĐ</h4>
+                <a href="./product.html" class="">
+                  <button type="button" class="btn btn-info"> <i class="fas fa-shopping-cart pr-2"></i>Mua ngay</button>
+                </a>
+              </div>
+            </div>
+            <div class="card h-100" style="width: 18rem;">
+              <img class="card-img-top" src="./assets/img/HPOMEN152020_00.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">HP owen</h5>
+                <p class="card-text">AMD Ryzen R7-4800H, RAM 8GB, 512GB m.2 NVMe, 15.6" 144Hz FHD IPS (1920 x 1080), GTX
+                  1660Ti</p>
+                <h4 class="card-title text-info">29.990.000 VNĐ</h4>
+                <a href="./product.html" class="">
+                  <button type="button" class="btn btn-info"> <i class="fas fa-shopping-cart pr-2"></i>Mua ngay</button>
+                </a>
+              </div>
+            </div>
+            <div class="card h-100" style="width: 18rem;">
+              <img class="card-img-top" src="./assets/img/HPOMEN152020_00.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">HP owen</h5>
+                <p class="card-text">AMD Ryzen R7-4800H, RAM 8GB, 512GB m.2 NVMe, 15.6" 144Hz FHD IPS (1920 x 1080), GTX
+                  1660Ti</p>
+                <h4 class="card-title text-info">29.990.000 VNĐ</h4>
+                <a href="./product.html" class="">
+                  <button type="button" class="btn btn-info"> <i class="fas fa-shopping-cart pr-2"></i>Mua ngay</button>
+                </a>
+              </div>
+            </div>
+            <div class="card h-100" style="width: 18rem;">
+              <img class="card-img-top" src="./assets/img/HPOMEN152020_00.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">HP owen</h5>
+                <p class="card-text">AMD Ryzen R7-4800H, RAM 8GB, 512GB m.2 NVMe, 15.6" 144Hz FHD IPS (1920 x 1080), GTX
+                  1660Ti</p>
+                <h4 class="card-title text-info">29.990.000 VNĐ</h4>
+                <a href="./product.html" class="">
+                  <button type="button" class="btn btn-info"> <i class="fas fa-shopping-cart pr-2"></i>Mua ngay</button>
+                </a>
+              </div>
+            </div>
+
+          </section>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <a href="https://www.facebook.com/QuyenGiaSuJava/"><img src="./assets/img/new-messenger-icon.gif"
+              height="50px" alt="" class="fixed-bottom m-auto mess"></a>
+        </div>
+
+      </div>
+    </div>
+
+
+
+    <!-- giam gia soc -->
+    <div class="container">
+
+      <h4 style="font-weight: bolder;">Máy tính - PC</h4>
+
+    </div>
+    <!-- slick carousel -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2 col-sm-12 pt-4 pl-5">
+          <h5 style="font-weight: bolder;">thương hiệu:</h5>
+        </div>
+        <div class="col-md-10 col-sm-12">
+          <a href="#"><img src="./assets/img/logo/asus.png" alt="" class="thuong-hieu"></a>
+          <a href="#"><img src="./assets/img/logo/5f6c4ee7ed9fd_1600933607.png" alt="" class="thuong-hieu"></a>
+          <a href="#"><img src="./assets/img/logo/acer (1).png" alt="" class="thuong-hieu"></a>
+          <a href="#"><img src="./assets/img/logo/hp.png" alt="" class="thuong-hieu"></a>
+          <a href="#"><img src="./assets/img/logo/lenovo.png" alt="" class="thuong-hieu"></a>
+        </div>
+      </div>
+    </div>
+    <div class="container pt-2">
+      <div class="row">
+        <div class="col-md-2 col-sm-12 pt-4 pl-5">
+          <h5 style="font-weight: bolder;">Tầm giá:</h5>
+        </div>
+        <div class="col-md-10 col-sm-12">
+          <div class="table-responsive">
+            <table class="table">
+              <tr>
+                <td><button type="button" class="btn btn-outline-info gia">Trên 50 triệu</button></td>
+                <td><button type="button" class="btn btn-outline-info gia">50-40 triệu</button></td>
+                <td><button type="button" class="btn btn-outline-info gia">40-30 triệu</button></td>
+                <td><button type="button" class="btn btn-outline-info gia">30-20 triệu</button></td>
+                <td><button type="button" class="btn btn-outline-info gia">20-10 triệu</button></td>
+                <td><button type="button" class="btn btn-outline-info gia">dưới 10 triệu</button></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container pt-2">
+      <div class="row">
+        <div class="col-md-3 col-sm-6 pt-2 pc">
+          <div class="card card-pc" style="width: 17rem;">
+            <a href="#"><img class="card-img-top fluid" src="./assets/img/pc/MacminiM1_00.png" alt="Card image cap"></a>
+            <div class="card-body">
+              <h5 class="card-title">Apple Mac Mini Late 2020 (Apple M1 - Chính hãng)</h5>
+              <p class="card-text">5 cấu hình tùy chọn</p>
+              <p class="card-text">Giá từ: <code style="font-size: 30px;">52.000.000</code></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 pt-2 pc">
+          <div class="card card-pc" style="width: 17rem;">
+            <a href="#"><img class="card-img-top"
+                src="./assets/img/pc/lenovo-thinkcentre-m720s-sff-ThinkCentreM720sSFF.jpg" alt="Card image cap"></a>
+            <div class="card-body">
+              <h5 class="card-title">Dell Vostro 3471<br><br><br></h5>
+              <p class="card-text">1 cấu hình tùy chọn </p>
+
+              <p class="card-text">Giá từ: <code style="font-size: 30px;">8.900.000</code></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 pt-2 pc">
+          <div class="card card-pc" style="width: 17rem;">
+            <a href="#"><img class="card-img-top" src="./assets/img/pc/razer-core-x-chroma-EGPURAZXC.jpg"
+                alt="Card image cap"></a>
+            <div class="card-body">
+              <h5 class="card-title">Razer Core X Chroma<br><br><br></h5>
+              <p class="card-text">5 cấu hình tùy chọn</p>
+              <p class="card-text">Giá từ: <code style="font-size: 30px;">11.490.000</code></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 pt-2 pc">
+          <div class="card card-pc" style="width: 17rem;">
+            <a href="#"><img class="card-img-top" src="./assets/img/pc/CaseRazerITX_00.jpg" alt="Card image cap"></a>
+            <div class="card-body">
+              <h5 class="card-title">Razer Tomahawk Mini-ITX<br><br></h5>
+              <p class="card-text">5 cấu hình tùy chọn</p>
+              <p class="card-text">Giá từ: <code style="font-size: 30px;">12.400.000</code></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 pt-2 pc">
+          <div class="card card-pc" style="width: 17rem;">
+            <a href="#"><img class="card-img-top" src="./assets/img/pc/g102-00jpg" alt="Card image cap"></a>
+            <div class="card-body">
+              <h5 class="card-title">Chuột Logitech G102 LIGHTSYNC <br><br></h5>
+              <p class="card-text">2 tùy chọn (trắng đen)</p>
+              <p class="card-text">Giá từ: <code style="font-size: 30px;">450.000</code></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 pt-2 pc">
+          <div class="card card-pc" style="width: 17rem;">
+            <a href="#"><img class="card-img-top" src="./assets/img/pc/CaseRazerATX_00.jpg" alt="Card image cap"></a>
+            <div class="card-body">
+              <h5 class="card-title">Razer Mini Late 2020 (Apple M1 - Chính hãng) <br> <br></h5>
+              <p class="card-text">5 cấu hình tùy chọn</p>
+              <p class="card-text">Giá từ: <code style="font-size: 30px;">52.000.000</code></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="container fluid mt-5">
+      <div class="row">
+        <div class="col-md-6 col-sm-12  pt-3">
+          <h2 class="logo">TOPMAC STORE</h2>
+
+        </div>
+        <div class="col-md-3 col-sm-6  pt-2">
+          <p>Hotline</p>
+          <h3>033.784.6412</h3>
+        </div>
+        <div class="col-md-3 col-sm-6 ">
+          <img src="./assets/img/icon/icon_face.png" alt="" width="35%" class="footer-icon">
+          <img src="./assets/img/icon/you.png" alt="" width="30%" class="footer-icon">
+          <img src="./assets/img/icon/inter.png" alt="" width="30%" class="footer-icon">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-9  pt-3">
+          <table class="table-footer">
+            <thead>
+              <tr>
+                <th>Sản phẩm và dịch vụ</th>
+                <th>Dòng máy</th>
+                <th>Chính sách</th>
+                <th>About TOPMAC</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>laptop Dell</td>
+                <td>Alienware</td>
+                <td>Bảo hành</td>
+                <td>Lịch sử thành lập</td>
+              </tr>
+              <tr>
+                <td>Laptop HP</td>
+                <td>Macbook</td>
+                <td>Vận chuyển</td>
+                <td>Giá trị cốt lõi</td>
+              </tr>
+              <tr>
+                <td>Laptop Thinkpad</td>
+                <td>Laptop Razer</td>
+                <td>Thanh toán</td>
+                <td>Tầm nhìn sứ mệnh</td>
+              </tr>
+              <tr>
+                <td>Laptop Lenlovo</td>
+                <td>Phụ kiện</td>
+              </tr>
+            </tbody>
+          </table>
+
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+
+
+  <!-- slick carousel -->
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+  <script src="./assets/fonts/slick/slick.min.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript">
+    $(document).on('ready', function () {
+
+      $(".regular").slick({
+        dots: true,
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 3
+      });
+    });
+  </script>
+  <!-- slick carousel -->
+
+  <script type="text/javascript">
+    $(document).on('ready', function () {
+
+      $(".regular-sm").slick({
+        dots: true,
+        infinite: true,
+        slidesToShow: 2,
+        slidesToScroll: 1
+      });
+    });
+  </script>
+  <!-- slick carousel -->
+</body>
+
+</html>
